@@ -2,9 +2,6 @@
 chest_xray_balanced/
 clean_dataset_index.csv/
 
-#python
-pycache/
-python_env/
 
 # Models
 *.pth
