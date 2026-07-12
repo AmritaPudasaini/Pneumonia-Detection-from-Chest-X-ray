@@ -1,9 +1,6 @@
 # Dataset
 chest_xray_balanced/
-
-# Python
-__pycache__/
-.ipynb_checkpoints/
+clean_dataset_index.csv/
 
 # Models
 *.pth
