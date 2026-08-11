@@ -20,11 +20,13 @@ All images are resized to 224×224, converted to RGB, and normalized to a 0–1 
 
 Three distinct classification approaches were implemented and evaluated on the same held-out test set:
 
-Model	Type	Description
+Model Type Description
 
-CNN	Built from scratch	Three Conv2D/MaxPooling blocks with a dense classification head, used as the baseline
-DenseNet121	Transfer learning	Pretrained on ImageNet, frozen base with a custom classification head, following the architecture used in CheXNet
-Random Forest	Hybrid ML	Trained on feature vectors extracted from the frozen DenseNet121 base, rather than raw pixels.
+CNN: Built from scratch	Three Conv2D/MaxPooling blocks with a dense classification head, used as the baseline.
+
+DenseNet121:	Transfer learning	Pretrained on ImageNet, frozen base with a custom classification head, following the architecture used in CheXNet.
+
+Random Forest:	Hybrid ML	Trained on feature vectors extracted from the frozen DenseNet121 base, rather than raw pixels.
 
 4. Evaluation
 
