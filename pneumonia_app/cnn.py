@@ -5,7 +5,6 @@ from fastapi import FastAPI, File, UploadFile
 from tensorflow.keras.models import load_model
 
 IMG_SIZE = (224, 224)
-
 model = load_model("cnn_pneumonia_model.h5")
 
 def preprocess_image(image_bytes):
