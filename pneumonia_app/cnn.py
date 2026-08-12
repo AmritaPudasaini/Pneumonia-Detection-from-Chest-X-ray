@@ -20,7 +20,6 @@ app = FastAPI(
     description="Upload a chest X-ray image to classify it as Normal or Pneumonia using a trained CNN model.",
     version="1.0.0"
 )
-
 @app.post(
     "/predict",
     summary="Classify a chest X-ray image",
