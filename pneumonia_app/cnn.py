@@ -9,7 +9,7 @@ IMG_SIZE = (224, 224)
 model = load_model("cnn_pneumonia_model.h5")
 
 def preprocess_image(image_bytes):
-    
+
     img = Image.open(io.BytesIO(image_bytes)).convert("RGB")
     img = img.resize(IMG_SIZE)
     img_array = np.array(img) / 255.0
