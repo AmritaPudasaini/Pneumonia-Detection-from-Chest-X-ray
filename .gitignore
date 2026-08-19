@@ -1,8 +1,3 @@
-# Dataset
-chest_xray_balanced/
-clean_dataset_index.csv/
-pneumonia_app/cnn_pneumonia_model.h5
-
 # Models
 *.pth
 *.pt
@@ -12,6 +7,8 @@ pneumonia_app/cnn_pneumonia_model.h5
 # Virtual environments
 venv/
 .env
+
 # Large ML files
+clean_dataset_index.csv/
 chest_xray_balanced/
 pneumonia_app/cnn_pneumonia_model.h5
