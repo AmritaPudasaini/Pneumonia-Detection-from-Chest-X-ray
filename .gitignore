@@ -12,3 +12,6 @@ pneumonia_app/cnn_pneumonia_model.h5
 # Virtual environments
 venv/
 .env
+# Large ML files
+chest_xray_balanced/
+pneumonia_app/cnn_pneumonia_model.h5
