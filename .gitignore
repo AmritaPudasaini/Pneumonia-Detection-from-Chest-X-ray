@@ -1,7 +1,7 @@
 # Dataset
 chest_xray_balanced/
 clean_dataset_index.csv/
-
+pneumonia_app/cnn_pneumonia_model.h5
 
 # Models
 *.pth
