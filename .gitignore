@@ -8,8 +8,6 @@ pneumonia_app/cnn_pneumonia_model.h5
 *.pt
 *.ckpt
 *.h5
-*.pb
-*.__pycache__/
 
 # Virtual environments
 venv/
