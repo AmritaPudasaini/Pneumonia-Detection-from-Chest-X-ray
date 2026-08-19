@@ -7,6 +7,7 @@ clean_dataset_index.csv/
 *.pth
 *.pt
 *.ckpt
+*.h5
 
 # Virtual environments
 venv/
