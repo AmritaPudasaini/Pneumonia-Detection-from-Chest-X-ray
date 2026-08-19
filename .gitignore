@@ -8,6 +8,8 @@ clean_dataset_index.csv/
 *.pt
 *.ckpt
 *.h5
+*.pb
+*.__pycache__/
 
 # Virtual environments
 venv/
