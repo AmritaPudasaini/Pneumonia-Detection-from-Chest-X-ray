@@ -3,12 +3,6 @@ chest_xray_balanced/
 clean_dataset_index.csv/
 
 
-# Models
-*.pth
-*.pt
-*.h5
-*.ckpt
-
 # Virtual environments
 venv/
 .env
